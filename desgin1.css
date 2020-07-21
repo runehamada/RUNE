@@ -1,0 +1,76 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 100vh;
+  margin-bottom: 20px;
+}
+table tr {
+  background-color: #87ceeb;
+}
+table  tr td{
+  padding: .35em 1em;
+  border: 2px solid #ffffff;
+}
+.price{
+  text-align: right;
+  color: #000;
+  font-size:1.4rem;
+}
+.text{
+  text-align: center;
+  color: #000;
+  font-size:1.4rem;
+}
+
+.mid table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 100vh;
+}
+#aaa{
+  background:#ffffff;
+  font-size:18px;
+}
+#bbb{
+  background:#1e90ff;
+  font-size:14px;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+#ccc{
+  background:#ffffff;
+  font-size:18px;
+}
+#ddd{
+  background:#1e90ff;
+  font-size:14px;
+  text-align: center;
+  color: #ffffff;
+}
+#eee{
+
+}
+.mid table th, .mid td{
+	border: 3px solid #eee;
+}
+.mid table tr:nth-child(2n){
+  background: #87ceeb;
+}
+.mid table tr:nth-child(2n+1){
+  background: #add8e6;
+}
+.mid tr:hover {
+	background: #ff0;
+}
+@media screen and (max-width: 600px) {
+  table{width: 100%;}
+}
